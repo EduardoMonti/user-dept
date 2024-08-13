@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = "entities")
+@EntityScan(basePackages = "com/example/userdept/entities")
 public class UserdeptApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UserdeptApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UserdeptApplication.class, args);
+    }
 
 }
